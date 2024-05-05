@@ -1,0 +1,35 @@
+[project]
+name = "npvdb"
+version = "0.0.1"
+dependencies = [
+  "numpy",
+  "scikit-learn",
+]
+requires-python = ">=3.9"
+authors = [
+  {name = "Alvaro Ibrain"},
+]
+maintainers = [
+  {name = "alvaro ibrain"}
+]
+description = "Simple vector DB using only numpy!"
+readme = "README.md"
+license = {file = "LICENSE.txt"}
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
+
+[project.urls]
+Homepage = "https://github.com/AIRLegend/npvdb"
+Documentation = "https://github.com/AIRLegend/npvdb"
+Repository = "https://github.com/AIRLegend/npvdb"
+Changelog = "https://github.com/AIRLegend/npvdb/CHANGELOG.md"
+
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-cov",
+]
+
