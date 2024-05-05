@@ -20,6 +20,10 @@ classifiers = [
   "Programming Language :: Python"
 ]
 
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
 [project.urls]
 Homepage = "https://github.com/AIRLegend/npvdb"
 Documentation = "https://github.com/AIRLegend/npvdb"
@@ -33,3 +37,8 @@ dev = [
     "pytest-cov",
 ]
 
+[tool.setuptools]
+py-modules = ['npvdb']
+
+# [tool.setuptools.package-data]
+# hello = ['/*']
